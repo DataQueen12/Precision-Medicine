@@ -1,0 +1,233 @@
+{
+  "name": "Precision Medicine",
+  "value": 100,
+  "children": [
+    {
+      "name": "Genomics",
+      "value": 30,
+      "children": [
+        {
+          "name": "Description",
+          "value": 10,
+          "children": [
+            {
+              "name": "The study of the complete set of DNA (including all of its genes) in a person or organism.",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "name": "Applications",
+          "value": 20,
+          "children": [
+            {
+              "name": "Biomarker Discovery",
+              "value": 8,
+              "children": [
+                {
+                  "name": "Description",
+                  "value": 3,
+                  "children": [
+                    {
+                      "name": "The process of identifying biological markers, such as genes, proteins, or other molecules, that can indicate a normal or abnormal process, or a condition or disease.",
+                      "value": 2
+                    }
+                  ]
+                },
+                {
+                  "name": "Examples",
+                  "value": 5,
+                  "children": [
+                    {
+                      "name": "BRCA1/BRCA2",
+                      "type": "Genes",
+                      "value": 3,
+                      "associatedConditions": ["Breast Cancer", "Ovarian Cancer"]
+                    },
+                    {
+                      "name": "HER2",
+                      "type": "Protein",
+                      "value": 2,
+                      "associatedConditions": ["Breast Cancer"]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Genomic Sequencing",
+              "value": 7,
+              "children": [
+                {
+                  "name": "Description",
+                  "value": 3,
+                  "children": [
+                    {
+                      "name": "Techniques to determine the order of DNA nucleotides in genomes, providing comprehensive genetic information.",
+                      "value": 2
+                    }
+                  ]
+                },
+                {
+                  "name": "Technologies",
+                  "value": 4,
+                  "children": [
+                    {"name": "Whole Genome Sequencing", "value": 2},
+                    {"name": "Whole Exome Sequencing", "value": 1},
+                    {"name": "Targeted Sequencing", "value": 1}
+                  ]
+                },
+                {
+                  "name": "Impacts",
+                  "value": 4,
+                  "children": [
+                    {"name": "Personalized Treatment Plans", "value": 2},
+                    {"name": "Identification of Rare Genetic Disorders", "value": 1},
+                    {"name": "Pharmacogenomics", "value": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pharmacogenomics",
+              "value": 5,
+              "children": [
+                {
+                  "name": "Description",
+                  "value": 2,
+                  "children": [
+                    {
+                      "name": "The study of how genes affect a person's response to drugs, leading to personalized medication strategies.",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Benefits",
+                  "value": 3,
+                  "children": [
+                    {"name": "Optimized Drug Selection", "value": 1},
+                    {"name": "Reduced Adverse Drug Reactions", "value": 1},
+                    {"name": "Improved Drug Efficacy", "value": 1}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tools and Technologies",
+      "value": 40,
+      "children": [
+        {
+          "name": "Artificial Intelligence",
+          "value": 20,
+          "children": [
+            {
+              "name": "Description",
+              "value": 8,
+              "children": [
+                {
+                  "name": "The use of AI to analyze and interpret complex genomic data, aiding in the advancement of Precision Medicine.",
+                  "value": 7
+                }
+              ]
+            },
+            {
+              "name": "Applications",
+              "value": 12,
+              "children": [
+                {"name": "Predictive Modeling", "value": 4},
+                {"name": "Disease Risk Assessment", "value": 4},
+                {"name": "Personalized Treatment Recommendations", "value": 4}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Data Management",
+          "value": 20,
+          "children": [
+            {
+              "name": "Description",
+              "value": 8,
+              "children": [
+                {
+                  "name": "The organization, storage, and analysis of large volumes of genomic data.",
+                  "value": 7
+                }
+              ]
+            },
+            {
+              "name": "Technologies",
+              "value": 12,
+              "children": [
+                {"name": "Cloud Computing", "value": 4},
+                {"name": "Big Data Analytics", "value": 4},
+                {"name": "Data Integration Platforms", "value": 4}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Future Directions",
+      "value": 30,
+      "children": [
+        {
+          "name": "Expanded Applications",
+          "value": 15,
+          "children": [
+            {
+              "name": "Description",
+              "value": 6,
+              "children": [
+                {
+                  "name": "Exploring new fields and applications for genomics within Precision Medicine.",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "name": "Areas",
+              "value": 9,
+              "children": [
+                {"name": "Epigenomics", "value": 3},
+                {"name": "Microbiomics", "value": 3},
+                {"name": "Transcriptomics", "value": 3}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Public Awareness",
+          "value": 15,
+          "children": [
+            {
+              "name": "Description",
+              "value": 6,
+              "children": [
+                {
+                  "name": "Efforts to increase public understanding and acceptance of Precision Medicine.",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "name": "Strategies",
+              "value": 9,
+              "children": [
+                {"name": "Educational Campaigns", "value": 3},
+                {"name": "Community Engagement", "value": 3},
+                {"name": "Patient Advocacy Groups", "value": 3}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
